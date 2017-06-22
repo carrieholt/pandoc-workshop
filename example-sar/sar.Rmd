@@ -1,0 +1,21 @@
+# This is a header 
+
+This is a paragraph.
+
+$$
+1 + 1 = 2
+$$
+
+## This is a subheader 
+
+```{r, echo=FALSE}
+x <- 99
+```
+
+This is a value derived from R: `r x`.
+
+Here is a figure created in R:
+
+```{r plot, echo=FALSE, fig.cap="This is the caption.", fig.width=6, fig.height=4}
+plot(1:10)
+```
