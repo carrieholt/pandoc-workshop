@@ -1,6 +1,13 @@
+---
+output: word_document
+  reference_docx: template.docx
+---
+
 # This is a header 
 
 This is a paragraph.
+
+See <http://rmarkdown.rstudio.com/articles_docx.html>.
 
 $$
 1 + 1 = 2

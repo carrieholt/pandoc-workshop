@@ -26,4 +26,15 @@ plot(x)
 
 The mean of $x$ is `r round(mean(x), 2)`.
 
+```{r make-table, echo=FALSE, results=TRUE, message=FALSE}
+library(dplyr)
+df <- mtcars %>%
+    mutate(make_model = row.names(mtcars)) %>%
+    filter(cyl == 4) %>%    
+    select(make_model, mpg, wt) %>%
+    mutate(wt = wt*1000) %>%
+    arrange(make_model)
+knitr::kable(df) 
+```
+
 # References
