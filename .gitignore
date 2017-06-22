@@ -2,4 +2,4 @@
 *.pdf
 *.html
 .Rproj.user
-
+.Rhistory
