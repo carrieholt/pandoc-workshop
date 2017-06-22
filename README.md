@@ -1,6 +1,8 @@
 # Pandoc / R Markdown
 
-See the example `.md` and `.Rmd` files.
+[Link to slides](https://sean.updog.co/pandoc-slides.pdf).
+
+See the example `.md` and `.Rmd` files in the `example` folders.
 
 Place any references you cite in the `.bib` files. These files are in BibTeX format. Follow the existing format when adding new references. Most reference managers and journal websites will export BibTeX formatted references.
 
