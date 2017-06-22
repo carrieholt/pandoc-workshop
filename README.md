@@ -186,18 +186,6 @@ Everything should work if your output is PDF through LaTeX.
 If your output is, say a Word document, then some more complicated math may not translate well. 
 You (we) can always get around that by translating to LaTeX first and then using something like `latex2rtf` to generate a Word document with math embedded as images.
 
-## Creating the PDF yourself
-
-You can re-compile the PDF by running `makefile` or copying and pasting the Pandoc command into a Terminal window. On Unix (e.g. Mac OS X):
-
-```sh
-cd your/folders/repository/
-make
-```
-
-You'll need Pandoc and a version of LaTeX installed. However, unless you want to re-create the PDF yourself, you can safely ignore all of this and just view the [version on GitHub](https://github.com/NickDulvy/shark-review/blob/master/shark-review.md)!
-
-
 [Markdown]: http://daringfireball.net/projects/markdown/
 [Pandoc]: http://johnmacfarlane.net/pandoc/
 [MultiMarkdown Composer]: http://multimarkdown.com/
