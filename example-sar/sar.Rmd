@@ -1,6 +1,7 @@
 ---
-output: word_document
-  reference_docx: template.docx
+output:
+  word_document:
+    reference_docx: template.docx
 ---
 
 # This is a header 
